@@ -1,0 +1,41 @@
+SESSION SUMMARY - 2026-03-28
+============================
+
+TOPICS DISCUSSED:
+-----------------
+
+1. WHAT IS PYTHON?
+   - High-level, general-purpose, interpreted programming language
+   - Known for simple/readable syntax, dynamic typing, large ecosystem
+   - Common uses: web dev, data science, ML, scripting, automation
+   - Created by Guido van Rossum, released in 1991
+
+2. HOW TO CHECK THREAD HISTORY ON GITHUB
+   - Profile Activity tab: github.com/[username] → Activity
+   - Search using: commenter:@me
+   - Notifications page → filter by "Participating"
+   - Direct URLs: github.com/issues?q=is:issue+author:@me
+   - GitHub CLI: gh search issues --author="@me"
+
+3. CAN CLAUDE CODE BE USED ON IPAD?
+   - No native iPad app
+   - Options: claude.ai/code in Safari, Claude iOS App, Remote Control
+   - CLI/VS Code/JetBrains extensions NOT available on iPad
+   - Best option: open claude.ai/code in Safari
+
+4. OPENING A VOICE FILE AND FINDING TEXT
+   - Claude Code cannot access files on your iPad directly
+   - Runs on a remote Linux server with no connection to device storage
+   - Suggested alternatives:
+     * iOS Voice Memos → Transcribe Recording (iOS 16+)
+     * Whisper (open-source transcription)
+     * Online services: Otter.ai, Rev.ai, Descript
+
+5. SENDING SESSION CHAT TO CLAUDE.AI
+   - No built-in export feature
+   - CLI and claude.ai sessions are separate
+   - Workarounds: copy/paste, CLAUDE.md for persistent context
+   - claude --remote starts a new web session (doesn't transfer history)
+
+============================
+END OF SESSION SUMMARY
