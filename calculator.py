@@ -7,6 +7,7 @@
 # C imports A and B's functions
 from person_a_addition import add
 from person_b_multiplication import multiply
+from person_e_division import divide
 
 
 class Calculator:
@@ -16,13 +17,16 @@ class Calculator:
     def multiply(self, a, b):
         return multiply(a, b)
 
+    def divide(self, a, b):
+        return divide(a, b)
+
 
 # C runs the full calculator
 if __name__ == "__main__":
     calc = Calculator()
 
     print("=== Calculator ===")
-    print(f"3 + 5  = {calc.add(3, 5)}")        # Output: 8
-    print(f"3 x 5  = {calc.multiply(3, 5)}")   # Output: 15
-    print(f"10 + 2 = {calc.add(10, 2)}")       # Output: 12
-    print(f"10 x 2 = {calc.multiply(10, 2)}")  # Output: 20
+    print(f"3 + 5  = {calc.add(3, 5)}")         # Output: 8
+    print(f"3 x 5  = {calc.multiply(3, 5)}")    # Output: 15
+    print(f"10 / 2 = {calc.divide(10, 2)}")     # Output: 5.0
+    print(f"5  / 0 = {calc.divide(5, 0)}")      # Output: Error
