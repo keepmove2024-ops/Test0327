@@ -4,8 +4,8 @@
       "command": "npx",
       "args": [
         "-y",
-        "@modelcontextprotocol/server-postgres",
-        "postgresql://localhost:5432/postgres"
+        "mcp-postgres",
+        "postgresql://postgres:postgres@127.0.0.1:5432/postgres"
       ]
     }
   }
